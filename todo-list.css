@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(pink,white);
+    padding: 10px;
+}
+.todolist-app {
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.todolist-app h2{
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;
+}
+img{
+    width: 30px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    
+}
+input{
+    flex: 1;
+   
+}
+button{
+    background-color: orangered;
+    
+    
+}
